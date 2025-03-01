@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevBoard</title>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <!-- font awesome cdn -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 <body class="bg-slate-300 min-h-screen p-2">
     <header class="w-11/12 mx-auto">
@@ -19,11 +15,8 @@
           <h1 class="text-3xl ">Dev<span class="font-bold text-3xl text-black">Doard</span></h1>
         </div>
         <div class="flex items-center gap-3">
-          <button class="bg-blue-100 py-2 rounded-full px-4">
-            <i class="fa-solid fa-check bg-blue-700 py-1 px-1 text-white"></i>
-            88
-          </button>
-
+          <img src="assets/checkbox.png" alt="">
+          <p id="nav-task" class="font-bold text-xl">22</p>
           <button id="change-bg"><img src="assets/theme-btn.png" alt=""></button>
         </div>
       </nav>
@@ -151,6 +144,6 @@
           </div>
         </div>
     </main>
-    
+    <script src="./script/index.js"></script>
 </body>
 </html>
